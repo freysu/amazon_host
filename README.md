@@ -1,33 +1,13 @@
-# GitHub520
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/521xueweihan/img_logo@main/logo/readme.gif"/>
-  <br><strong><a href="https://github.com/521xueweihan/HelloGitHub" target="_blank">HelloGitHub</a></strong> 分享 GitHub 上有趣、入门级的开源项目。<br>兴趣是最好的老师，这里能够帮你找到编程的兴趣！
-</p>
-
-服务器续费到 2024.12 共花了：1500+💰 [点击扫码赞助](https://cdn.jsdelivr.net/gh/521xueweihan/img_logo@main/logo/receiving_code.png)，感谢🙏
-
-## 一、介绍
-对 GitHub 说"爱"太难了：访问慢、图片加载不出来。
-
-**本项目无需安装任何程序，仅需 5 分钟。**
-
-通过修改本地 hosts 文件，试图解决：
-- GitHub 访问速度慢的问题
-- GitHub 项目中的图片显示不出的问题
-
-让你"爱"上 GitHub。
-
-
-
-*注：* 本项目还处于测试阶段，仅在本机测试通过，如有问题欢迎提 [issues](https://github.com/521xueweihan/GitHub520/issues/new)
+# Amazon_host
+*注：* 本项目还处于测试阶段，仅在本机测试通过，如有问题欢迎提 [issues](https://github.com/freysu/amazon_host/issues/new)
 
 
 ## 二、使用方法
 
 下面的地址无需访问 GitHub 即可获取到最新的 hosts 内容：
 
-- 文件：`https://raw.hellogithub.com/hosts`
-- JSON：`https://raw.hellogithub.com/hosts.json`
+- 文件：`https://raw.githubusercontent.com/freysu/amazon_host/main/hosts`
+- JSON：`https://raw.githubusercontent.com/freysu/amazon_host/main/hosts.json`
 
 ### 2.1 手动方式
 
@@ -35,37 +15,81 @@
 
 ```bash
 # GitHub520 Host Start
+23.45.180.211                 a.media-amazon.com
+#                             a2z.com
+176.32.110.78                 aan.amazon.de
+54.239.32.31                  aan.amazon.es
+176.32.109.33                 aan.amazon.fr
+176.32.110.212                aan.amazon.it
+52.95.119.2                   aax-eu.amazon.de
+52.95.119.2                   aax-eu.amazon.es
+52.95.119.2                   aax-eu.amazon.fr
+52.95.119.2                   aax-eu.amazon.it
+209.54.177.41                 aax-us-iad.amazon.com
+216.137.34.45                 af4c2fc8cd0293f914dfc6c3f3b02a7a8.profile.lhr61-p2.cloudfront.net
+#                             alexa-smart-nudge.amazon.com
+#                             amazon-adsystem.com
 54.239.28.85                  amazon.com
 52.95.120.34                  amazon.de
-52.95.116.112                 amazon.es
-52.95.116.113                 amazon.fr
-54.239.33.83                  amazon.it
-52.94.240.240                 api.amazon.com
-18.67.66.70                   d1f0esyb34c1g2.cloudfront.net
-18.67.66.204                  d1lxz4vuik53pc.cloudfront.net
-54.192.199.207                images-eu.ssl-images-amazon.com
-13.32.177.205                 images-fe.ssl-images-amazon.com
-151.101.193.16                images-na.ssl-images-amazon.com
-151.101.65.16                 m.media-amazon.com
-52.46.142.156                 msh.amazon.com
+52.95.120.38                  amazon.es
+54.239.33.91                  amazon.fr
+52.95.120.36                  amazon.it
+52.119.198.101                api.amazon.com
+52.94.234.30                  appx.transient.amazon.com
+#                             arcus-uswest.amazon.com
+#                             avs-alexa-16-na.amazon.com
+#                             cloudfront.net
+#                             completion.amazon.com
+#                             completion.amazon.de
+#                             completion.amazon.es
+#                             completion.amazon.fr
+#                             completion.amazon.it
+18.67.66.200                  d1f0esyb34c1g2.cloudfront.net
+18.238.50.45                  d1lxz4vuik53pc.cloudfront.net
+13.32.207.224                 d39x00gckxu2jb.cloudfront.net
+18.154.235.87                 data-na.amazon.com
+#                             device-metrics-us-2.amazon.com
+#                             device-metrics-us.amazon.com
+18.67.83.222                  dk9ps7goqoeef.cloudfront.net
+108.138.82.219                dtjsystab5p0r.cloudfront.net
+151.101.65.16                 f.media-amazon.com
+#                             fls-eu.amazon.de
+#                             fls-eu.amazon.es
+#                             fls-eu.amazon.fr
+#                             fls-eu.amazon.it
+#                             fls-na.amazon.com
+3.162.111.204                 images-eu.ssl-images-amazon.com
+18.67.83.222                  images-fe.ssl-images-amazon.com
+18.154.233.226                images-na.ssl-images-amazon.com
+18.160.38.195                 m.media-amazon.com
+#                             mag-na.amazon.com
+#                             media-amazon.com
+52.46.128.80                  msh.amazon.com
 209.54.176.231                prime.amazon.com
+#                             prod-1.us-east-1.mdcs.mshop.amazon.dev
+#                             ssl-images-amazon.com
 52.94.226.161                 transient.amazon.com
-67.220.246.67                 unagi-na.amazon.com
-67.220.246.67                 unagi.amazon.com
-172.68.36.143                 whoami.akamai.net
-54.230.203.158                www.amazon.com
+52.94.235.74                  unagi-na.amazon.com
+52.94.235.74                  unagi.amazon.com
+67.220.224.106                unagi.amazon.de
+67.220.228.134                unagi.amazon.es
+52.95.127.127                 unagi.amazon.fr
+67.220.228.178                unagi.amazon.it
+172.253.195.207               whoami.akamai.net
+173.222.168.196               www.amazon.com
 18.160.14.91                  www.amazon.de
-18.165.78.144                 www.amazon.es
-108.157.138.25                www.amazon.it
+23.202.154.79                 www.amazon.es
+23.202.154.78                 www.amazon.fr
+23.202.154.80                 www.amazon.it
 
-# Update time: 2024-01-27T10:15:10+08:00
-# Update url: https://raw.hellogithub.com/hosts
-# Star me: https://github.com/521xueweihan/GitHub520
+# Update time: 2024-01-30T20:19:40+08:00
+# Update url: https://raw.githubusercontent.com/freysu/amazon_host/main/hosts
+# Star me: https://github.com/freysu/amazon_host
 # GitHub520 Host End
 
 ```
 
-该内容会自动定时更新， 数据更新时间：2024-01-27T10:15:10+08:00
+该内容会自动定时更新， 数据更新时间：2024-01-30T20:19:40+08:00
 
 #### 2.1.2 修改 hosts 文件
 
@@ -103,65 +127,10 @@ hosts 文件在每个系统的位置不一，详情如下：
 
 - Hosts 标题: 随意
 
-- URL: `https://raw.hellogithub.com/hosts`
+- URL: `https://raw.githubusercontent.com/freysu/amazon_host/main/hosts`
 
 - 自动刷新: 最好选 `1 小时`
 
-如图：
-
-![](./img/switch-hosts.png)
-
-这样每次 hosts 有更新都能及时进行更新，免去手动更新。
-
-### 2.3 一行命令 (适用于类 Unix 系统)
-
-#### GNU（Ubuntu/CentOS/Fedora）
-
-`sudo sh -c 'sed -i "/# GitHub520 Host Start/Q" /etc/hosts && curl https://raw.hellogithub.com/hosts >> /etc/hosts'`
-
-#### BSD/macOS
-
-`sed -i "" "/# GitHub520 Host Start/,/# Github520 Host End/d" /etc/hosts && curl https://raw.hellogithub.com/hosts >> /etc/hosts`
-
-将上面的命令添加到 cron，可定时执行。使用前确保 GitHub520 内容在该文件最后部分。
-
-#### 在 Dcker 中运行，若遇到 `Device or resource busy` 错误，可使用以下命令执行
-
-`cp /etc/hosts ~/hosts.new && sed -i "/# GitHub520 Host Start/Q" ~/hosts.new && curl https://raw.hellogithub.com/hosts >> ~/hosts.new && cp -f ~/hosts.new /etc/hosts`
-
-### 2.4 AdGuard 用户（自动方式）
-
-在 **过滤器>DNS 封锁清单>添加阻止列表>添加一个自定义列表**，配置如下：
-
-- 名称：随意
-
-- URL：`https://raw.hellogithub.com/hosts`（和上面 SwitchHosts 使用的一样）
-
-如图：
-
-![](./img/AdGuard-rules.png)
-
-更新间隔在 **设置 > 常规设置 > 过滤器更新间隔（设置一小时一次即可）**，记得勾选上 **使用过滤器和 Hosts 文件以拦截指定域名**
-
-![](./img/AdGuard-rules2.png)
-
-**Tip**：不要添加在 **DNS 允许清单** 内，只能添加在 **DNS 封锁清单** 才管用。 另外，AdGuard for Mac、AdGuard for Windows、AdGuard for Android、AdGuard for IOS 等等 **AdGuard 家族软件** 添加方法均类似。
-
-
-## 三、效果对比
-之前的样子：
-
-![](./img/old.png)
-
-修改完 hosts 的样子：
-
-![](./img/new.png)
-
-
-## TODO
-- [x] 定时自动更新 hosts 内容
-- [x] hosts 内容无变动不会更新
-- [x] 寻到最优 IP 解析结果
 
 ## 声明
 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"><img alt="知识共享许可协议" style="border-width: 0" src="https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png"></a><br>本作品采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh">署名-非商业性使用-禁止演绎 4.0 国际</a> 进行许可。
