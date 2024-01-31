@@ -21,11 +21,11 @@
 #                             aan.amazon.de
 #                             aan.amazon.it
 #                             a.media-amazon.com
-#                             aax-eu.amazon.es
 #                             aax-eu.amazon.de
+#                             aax-eu.amazon.es
 #                             aax-eu.amazon.fr
-#                             amazon-adsystem.com
 #                             aax-eu.amazon.it
+#                             amazon-adsystem.com
 #                             aax-us-iad.amazon.com
 #                             alexa-smart-nudge.amazon.com
 #                             amazon.com
@@ -59,37 +59,37 @@
 #                             fls-eu.amazon.it
 #                             images-eu.ssl-images-amazon.com
 #                             images-fe.ssl-images-amazon.com
-#                             images-na.ssl-images-amazon.com
 #                             media-amazon.com
-#                             m.media-amazon.com
 #                             mag-na.amazon.com
-#                             ssl-images-amazon.com
+#                             images-na.ssl-images-amazon.com
 #                             msh.amazon.com
+#                             m.media-amazon.com
+#                             ssl-images-amazon.com
 #                             prime.amazon.com
-#                             transient.amazon.com
 #                             fls-na.amazon.com
+#                             transient.amazon.com
 #                             unagi.amazon.de
 #                             unagi.amazon.es
-#                             prod-1.us-east-1.mdcs.mshop.amazon.dev
 #                             unagi.amazon.fr
-#                             unagi.amazon.it
+#                             prod-1.us-east-1.mdcs.mshop.amazon.dev
 #                             unagi-na.amazon.com
+#                             unagi.amazon.it
 #                             unagi.amazon.com
 #                             whoami.akamai.net
 #                             www.amazon.com
-#                             www.amazon.es
 #                             www.amazon.de
+#                             www.amazon.es
 #                             www.amazon.fr
 #                             www.amazon.it
 
-# Update time: 2024-01-31T17:36:22+08:00
+# Update time: 2024-01-31T18:17:06+08:00
 # Update url: https://raw.githubusercontent.com/freysu/amazon_host/main/hosts
 # Star me: https://github.com/reysu/amazon_host
 # Amazon Host End
 
 ```
 
-该内容会自动定时更新， 数据更新时间：2024-01-31T17:36:22+08:00
+该内容会自动定时更新， 数据更新时间：2024-01-31T18:17:06+08:00
 
 #### 2.1.2 修改 hosts 文件
 
