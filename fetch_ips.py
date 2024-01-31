@@ -10,7 +10,7 @@ from typing import Optional, List
 from pythonping import ping
 from requests_html import HTMLSession
 from retrying import retry
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 HOSTS_TEMPLATE = """# Amazon Host Start
 {content}
@@ -157,7 +157,7 @@ def process_urls(session: any, verbose: bool) -> List[tuple]:
             executor.submit(process_url, session, url, verbose) for url in AMAZON_URLS
         ]
 
-        for future in futures:
+        for future in as_completed(futures):
             result = future.result()
             if result:
                 content_list.append(result)
